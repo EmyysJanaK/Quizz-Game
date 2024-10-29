@@ -26,7 +26,18 @@ public class Answer {
     public Answer(int answerId, int questionId, String answerText, boolean isCorrect) {
         this.answerId = answerId;
         this.questionId = questionId;
-        this.answerText = answerText;
         this.isCorrect = isCorrect;
+        this.answerText = answerText;
+        
     }
 }
+
+
+/*
+ * select salary as SecondLargestSalaryCodeGen , name as secondRichPepole
+ * from employee
+ * order by salary desc
+ * limit 1
+ * offset 2;
+ * 
+ */
